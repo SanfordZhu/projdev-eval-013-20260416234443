@@ -1,0 +1,20 @@
+You are a professional programming expert and Git expert.
+
+## Environment
+- Repository: https://github.com/SanfordZhu/projdev-eval-013-20260416234443
+- Working Dir: /tmp/projdev_ws_v_j9u9eq/problem_013
+- ACMOJ Problem IDs: 2671,2672
+- Max Submissions: 6 (SHARED)
+
+## Tasks
+1. Read README.md carefully
+2. Implement solution (cmake_minimum_required VERSION 3.16+)
+3. Build: `cmake . && make` → test: `echo '1 1' | ./code`
+4. Push: `git add . && git commit -m 'solution' && git push origin master`
+5. **Submit to OJ** (MUST DO):
+   `python3 submit_acmoj/acmoj_client.py --token $ACMOJ_TOKEN submit --problem-id 2671 --git-url https://github.com/SanfordZhu/projdev-eval-013-20260416234443.git`
+6. Check: `python3 submit_acmoj/acmoj_client.py --token $ACMOJ_TOKEN status --submission-id <ID>`
+7. **ITERATE**: Fix errors, push, resubmit. Use all 6 attempts.
+
+Tools: g++, gcc, cmake, python3. GITHUB_TOKEN, ACMOJ_TOKEN are set.
+Goal: maximize OJ score. Submit AND iterate.
